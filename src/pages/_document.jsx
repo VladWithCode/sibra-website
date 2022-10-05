@@ -1,0 +1,21 @@
+import { Head, Html, Main, NextScript } from 'next/document';
+import React from 'react';
+
+function Document() {
+  return (
+    <Html>
+      <Head>
+        <link
+          href='https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@300;400;600;700&display=swap'
+          rel='stylesheet'
+        />
+      </Head>
+      <body>
+        <Main></Main>
+        <NextScript />
+      </body>
+    </Html>
+  );
+}
+
+export default Document;

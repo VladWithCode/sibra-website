@@ -1,5 +1,9 @@
 // import second from 'first';
 
 export default function Home() {
-  return <div className='text-2xl'>hello world!</div>;
+  return (
+    <>
+      <p className='h-[120vh]'>Hello world</p>
+    </>
+  );
 }
