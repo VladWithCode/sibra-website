@@ -5,6 +5,9 @@
 
 @import 'vars';
 
+@import 'components/search-bar.css';
+@import 'components/select.css';
+
 html,
 body {
   padding: 0;

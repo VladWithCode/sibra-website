@@ -1,9 +1,11 @@
 // import second from 'first';
 
+import Hero from '../components/layout/Hero/Hero';
+
 export default function Home() {
   return (
     <>
-      <p className='h-[120vh]'>Hello world</p>
+      <Hero />
     </>
   );
 }

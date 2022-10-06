@@ -1,0 +1,24 @@
+.search-bar {
+  @apply p-2;
+  @apply border-b-2;
+  @apply border-slate-400;
+  @apply outline-none;
+  @apply text-sm;
+  @apply rounded-tl-sm;
+  @apply rounded-bl-sm;
+
+  background: rgba(0, 0, 0, 0);
+  color: white;
+
+  &:focus {
+    @apply bg-slate-200;
+    @apply bg-opacity-30;
+    @apply border-white;
+  }
+
+  &:focus + .btn {
+    @apply bg-slate-200;
+    @apply text-slate-700;
+    @apply border-white;
+  }
+}
