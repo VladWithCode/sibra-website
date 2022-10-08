@@ -10,6 +10,7 @@
     "contract": { "string": ["renta", "venta"] },
     "rooms": { "int": { "min": 0, "max": 6 } },
     "baths": { "int": { "min": 0, "max": 8 } },
-    "area": { "int": { "min": 10, "max": 300 } }
+    "area": { "int": { "min": 10, "max": 300 } },
+    "price": { "int": { "min": 80000, "max": 19000000 } }
   }
 }
