@@ -1,0 +1,14 @@
+{
+  "Home": {
+    "title": { "string": {} },
+    "slug": { "string": {} },
+    "mainImg": {
+      "string": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" }
+    },
+    "contract": { "string": {} },
+    "rooms": { "int": { "min": 0, "max": 6 } },
+    "baths": { "int": { "min": 0, "max": 8 } },
+    "area": { "int": { "min": 10, "max": 300 } },
+    "measures": {}
+  }
+}
