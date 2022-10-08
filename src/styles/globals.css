@@ -8,6 +8,8 @@
 @import 'components/search-bar.css';
 @import 'components/select.css';
 
+@import 'typography';
+
 html,
 body {
   padding: 0;

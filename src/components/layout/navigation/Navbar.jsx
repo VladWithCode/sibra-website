@@ -11,7 +11,7 @@ function Navbar({}) {
         <a className='text-2xl font-bold pr-8'>Sibra</a>
       </Link>
       {!isMenuOpen ? <Navigation /> : ''}
-      <Menu isOpen={isMenuOpen} setIsOpen={setIsMenuOpen} />
+      {/* <Menu isOpen={isMenuOpen} setIsOpen={setIsMenuOpen} /> */}
       <div
         className='space-y-1.5 w-6 md:ml-8 cursor-pointer'
         onClick={() => setIsMenuOpen(prev => !prev)}>
