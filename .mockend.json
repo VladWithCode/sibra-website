@@ -3,7 +3,7 @@
     "title": { "string": {} },
     "slug": { "string": {} },
     "mainImg": {
-      "string": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" }
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
     },
     "contract": { "string": {} },
     "rooms": { "int": { "min": 0, "max": 6 } },
