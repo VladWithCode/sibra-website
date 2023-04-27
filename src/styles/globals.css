@@ -6,17 +6,16 @@
 @import 'vars';
 
 @import 'components/search-bar.css';
-@import 'components/select.css';
 
 @import 'typography';
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: var(--ff-primary);
+	padding: 0;
+	margin: 0;
+	font-family: var(--ff-primary);
 }
 
 body {
-  @apply text-black bg-gray-50;
+	@apply text-black bg-gray-50;
 }
